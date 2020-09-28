@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .menu-link {
+    text-decoration: none;
+    padding: 0.5em 1em;
+    color: $black;
+    background-color: $white;
+  }
+  .menu-link:hover {
+    color: $white;
+    background: $dark-blue;
+  }
+  a {
+    color: $light-blue;
+  }
+}

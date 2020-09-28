@@ -1,0 +1,20 @@
+@import url(https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400&display=swap);
+
+// color theme
+$green: #41BF47;
+$dark-blue: #395291;
+$light-blue: #94D0FF;
+$red: #DB6978;
+$yellow: #E2D467;
+$black: #202124;
+$white: #FFFFFF;
+$gray: #E3E3E3;
+
+body {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 300;
+  color: $gray;
+  background-color: $dark-blue;
+}
+
+@import "navigation.scss";
