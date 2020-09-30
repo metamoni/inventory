@@ -13,9 +13,9 @@
     <nav>
       <ul>
         <li>
-          <a class="menu-link" href="/">Home</a>
-          <a class="menu-link" href="/">Properties</a>
-          <a class="menu-link" href="/">Add property</a>
+          <%= link_to "Home", root_path, class: "menu-link" %>
+          <%= link_to "View properties", property_index_path, class: "menu-link" %>
+          <%= link_to "Add property", property_create_path, class: "menu-link" %>
         </li>
       </ul>
 
