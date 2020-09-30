@@ -14,9 +14,13 @@ nav {
   }
   .menu-link:hover {
     color: $white;
-    background: $dark-blue;
+    background: $black;
   }
   a {
+    padding: 0 0.25em;
     color: $light-blue;
+  }
+  a:hover {
+    color: $yellow;
   }
 }
